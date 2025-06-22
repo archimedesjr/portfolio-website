@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Temitayo's Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <main class="bg-[#0d1117] text-white min-h-screen font-sans">
+      <!-- Hero Section  -->
+     <section class="h-screen w-screen bg-gradient-to-b from-[#0d1117] to-[#161b22] text-white flex flex-col items-center justify-center text-center px-4 py-16 md:py-32" role="banner" aria-label="Hero section">
+      <h1 class="text-5xl md:text-6xl font-bold mb-2">Hello! 👋🏻</h1>
+      <h2 class="text-4xl md:text-5xl font-semibold mb-4">I'm Temitayo</h2>
+      <p class="text-xl md:text-2xl text-[#38bdf8] max-w-xl">
+        A Backend Developer who is focused on clean architecture, APIs, and scalable systems.
+      </p>
+      <div class="mt-6 flex flex-col sm:flex-row gap-4">
+        <a href="#" class="px-6 py-2 border border-white rounded-xl hover:bg-[#00ffab] hover:text-black transition">
+          Resume
+        </a>
+        <a href="#project" class="px-6 py-2 border border-white rounded-xl hover:bg-[#00ffab] hover:text-black transition">
+          Projects
+        </a>
+      </div>
+    </section>
+
+      <!-- About Me Section -->
+      <section class="h-screen w-screen max-w-5xl mx-auto px-4 py-20 grid md:grid-cols-2 gap-8 items-center">
+        <img class="w-40 h-40 md:w-60 md:h-60 rounded-full mx-auto md:mx-0 shadow-lg" src="./profile-pic.png" alt="Temitayo Profile" />
+        <div>
+          <h2 class="text-3xl font-bold mb-4">About Me</h2>
+          <p class="text-gray-300 mb-4 text-justify">
+            I graduated from the University of Lagos with a Second Class Upper in Mathematics and also hold a Diploma in Real Estate Management from Yaba College of Technology. I have experience in content writing, having authored over 25 personal statements, academic papers, and dissertations.
+          </p>
+          <p class="text-gray-300 mb-4 text-justify">
+            I’ve also taught mathematics at both elementary and undergraduate levels — from basic arithmetic to advanced analysis — applying my mathematical expertise in practical settings.
+          </p>
+          <p class="text-gray-300 mb-4 text-justify">
+            Now, as a backend developer, I specialize in building high-performance, scalable server-side applications. I enjoy solving complex problems with APIs, databases, and clean architecture.
+          </p>
+          <h3 class="text-3xl font-bold mb-4">Skills</h3>
+          <div class="flex flex-wrap gap-4 mt-4">
+              <span class="flex items-center gap-2 bg-slate-800 text-teal-300 px-3 py-1 rounded-full text-sm">
+                <i class="devicon-nodejs-plain text-green-400 text-lg"></i> Node.js
+              </span>
+              <span class="flex items-center gap-2 bg-slate-800 text-yellow-300 px-3 py-1 rounded-full text-sm">
+                <i class="devicon-express-original text-white text-lg"></i> Express
+              </span>
+              <span class="flex items-center gap-2 bg-slate-800 text-blue-300 px-3 py-1 rounded-full text-sm">
+                <i class="devicon-python-plain text-yellow-400 text-lg"></i> Python
+              </span>
+              <span class="flex items-center gap-2 bg-slate-800 text-green-300 px-3 py-1 rounded-full text-sm">
+                <i class="devicon-django-plain text-white text-lg"></i> Django
+              </span>
+              <span class="flex items-center gap-2 bg-slate-800 text-blue-400 px-3 py-1 rounded-full text-sm">
+                <i class="devicon-docker-plain text-blue-400 text-lg"></i> Docker
+              </span>
+              <span class="flex items-center gap-2 bg-slate-800 text-indigo-400 px-3 py-1 rounded-full text-sm">
+                <i class="devicon-postgresql-plain text-indigo-400 text-lg"></i> PostgreSQL
+              </span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects Section -->
+      <section id="project" class="h-screen w-screen flex flex-col justify-center px-4 bg-gradient-to-br from-[#0d1b2a] to-[#1b263b]">
+        <div class="max-w-3xl mx-auto w-full">
+          <h2 class="text-3xl font-bold text-white mb-10 text-center md:text-left">Projects</h2>
+
+          <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div class="bg-[#161b22] p-6 rounded-xl border border-gray-700 hover:shadow-lg transition">
+              <h3 class="text-xl font-semibold mb-2">Analytics Platform</h3>
+              <p class="text-gray-400 text-sm mb-4">
+                Engineered a data analytics platform for visualizing user behavior.
+              </p>
+              <div class="flex gap-4 text-[#38bdf8] text-sm">
+                <a href="#" class="hover:underline">GitHub</a>
+                <a href="#" class="hover:underline">Live Demo</a>
+              </div>
+            </div>
+
+            <div class="bg-[#161b22] p-6 rounded-xl border border-gray-700 hover:shadow-lg transition">
+              <h3 class="text-xl font-semibold mb-2">Task Manager API</h3>
+              <p class="text-gray-400 text-sm mb-4">
+                Developed a RESTful API for managing tasks and projects.
+              </p>
+              <div class="flex gap-4 text-[#38bdf8] text-sm">
+                <a href="#" class="hover:underline">GitHub</a>
+                <a href="#" class="hover:underline">Live Demo</a>
+              </div>
+            </div>
+
+            <div class="bg-[#161b22] p-6 rounded-xl border border-gray-700 hover:shadow-lg transition">
+              <h3 class="text-xl font-semibold mb-2">Finance Dashboard</h3>
+              <p class="text-gray-400 text-sm mb-4">
+                Created a real-time dashboard for monitoring financial data.
+              </p>
+              <div class="flex gap-4 text-[#38bdf8] text-sm">
+                <a href="#" class="hover:underline">GitHub</a>
+                <a href="#" class="hover:underline">Live Demo</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Page -->
+     <section id="contact" class="h-screen w-screen flex flex-col justify-center px-4">
+        <div class="max-w-2xl mx-auto w-full">
+          <h2 class="text-3xl font-bold mb-8 text-center md:text-left">Contact Me</h2>
+          
+          <form action="#" method="POST" class="space-y-6">
+            <!-- Name -->
+            <div>
+              <label for="your_name" class="block text-sm font-medium text-gray-300 mb-1">Your Name *</label>
+              <input 
+                type="text" 
+                name="your_name" 
+                id="your_name" 
+                placeholder="Enter Your Name"
+                class="w-full px-4 py-2 bg-[#161b22] text-white border border-gray-600 rounded-lg focus:outline-none focus:border-[#00ffab]"
+              />
+            </div>
+
+            <!-- Email -->
+            <div>
+              <label for="email" class="block text-sm font-medium text-gray-300 mb-1">Email *</label>
+              <input 
+                type="email" 
+                name="email" 
+                id="email" 
+                placeholder="Enter Your Email"
+                class="w-full px-4 py-2 bg-[#161b22] text-white border border-gray-600 rounded-lg focus:outline-none focus:border-[#00ffab]"
+              />
+            </div>
+
+            <!-- Message -->
+            <div>
+              <label for="message" class="block text-sm font-medium text-gray-300 mb-1">Message</label>
+              <textarea 
+                name="message" 
+                id="message" 
+                rows="4" 
+                placeholder="Type your message here..."
+                class="w-full px-4 py-2 bg-[#161b22] text-white border border-gray-600 rounded-lg focus:outline-none focus:border-[#00ffab]"
+              ></textarea>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="text-center md:text-left">
+              <button type="submit" class="px-6 py-2 bg-[#00ffab] text-black rounded-lg hover:bg-[#00e6a0] transition">
+                Send Message
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+</body>
+</html>
